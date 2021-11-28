@@ -52,3 +52,18 @@ Examples: https://getbootstrap.com/docs/4.0/examples/
 
 
 # Structure advices:
+
+Public pages create in root folder:
+   - index.php
+   - products.php
+   - product.php
+   - order.php
+   - etc.
+
+Private (admin) pages create in sub folder like `admin`:
+   - admin/index.php
+   - admin/products.php
+   - admin/product.php
+   - admin/edit_product.php
+   - admin/new_product.php
+   - etc.
