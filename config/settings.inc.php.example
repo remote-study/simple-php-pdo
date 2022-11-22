@@ -1,10 +1,10 @@
 <?php
 
-if (defined('_ROOT_DIR_')) {
+if (!defined('_ROOT_DIR_')) {
     define('_ROOT_DIR_', realpath(dirname(__FILE__) . '/..'));
 }
 
-include_once(_ROOT_DIR_ . '/defines.inc.php');
+include_once(_ROOT_DIR_ . '/config/defines.inc.php');
 
 define('_DB_SERVER_', 'localhost');
 define('_DB_PORT_', '3306');
